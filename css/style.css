@@ -26,13 +26,16 @@
 }
 body {
   font-family: var(--font-family);
-  color: var(--color-navy-blue);
+  color: var(--color-slate);
+  background-color: var(--color-white);
 }
 .nav-link {
   font-family: var(--font-family-logo);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--color-iris);
 }
 .nav-link > span {
@@ -40,6 +43,8 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--color-navy-blue);
 }
 .footer-link {
@@ -47,13 +52,17 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--color-iris);
 }
-.footer-link > span {
+.text {
   font-family: var(--font-family-logo);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--color-cloud);
 }
 .nav-link-list {
@@ -61,10 +70,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-navy-blue);
+  letter-spacing: 0.02em;
 }
 .nav-link-list:hover,
-.nav-link-list:focus,
-.nav-link-list:active {
+.nav-link-list:focus {
   color: var(--color-ocean);
 }
 .contact-list-item {
@@ -72,60 +81,88 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-slate);
+  letter-spacing: 0.02em;
 }
-.contact-list-item:active {
+.contact-list-item:active,
+.contact-list-item:hover,
+.contact-list-item:focus {
   color: var(--color-ocean);
+}
+.hero {
+  background-color: var(--color-navy-blue);
 }
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: var(--color-white);
-  background-color: rgba(46, 47, 66, 1);
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.pointer {
+  cursor: pointer;
 }
 .btn-dark {
-  font-family: inherit;
+  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-white);
   background-color: var(--color-iris);
+  letter-spacing: 0.04em;
 }
-.btn-dark:hover {
+.btn-dark:hover,
+.btn-dark:focus {
+  color: var(--color-white);
   background-color: var(--color-ocean);
 }
 .btn {
-  font-family: inherit;
+  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-iris);
   background-color: var(--color-cornflower);
+  letter-spacing: 0.04em;
 }
 .tatle-desc {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
 }
 .tatle-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
 }
 .desc {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
 }
 .desc-dark {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.11;
   color: var(--color-white);
   background-color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .team-content {
   background-color: var(--color-cloud);
+}
+.team-list-item {
+  background-color: var(--color-white);
 }
 .page-footer {
   background-color: var(--color-navy-blue);
