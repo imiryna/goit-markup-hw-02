@@ -111,12 +111,23 @@ body {
   background-color: var(--color-iris);
   letter-spacing: 0.04em;
 }
-.btn-dark:hover,
-.btn-dark:focus {
+.btn-iris {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
+  letter-spacing: 0.04em;
+}
+.btn-dark,
+.btn-iris:hover,
+.btn-dark,
+.btn-iris:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
 }
-.btn {
+.btn-iris .btn {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
@@ -125,7 +136,7 @@ body {
   background-color: var(--color-cornflower);
   letter-spacing: 0.04em;
 }
-.tatle-desc {
+.title-desc {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -134,7 +145,7 @@ body {
   text-transform: capitalize;
   color: var(--color-navy-blue);
 }
-.tatle-name {
+.title-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
