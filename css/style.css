@@ -120,21 +120,12 @@ body {
   background-color: var(--color-cloud);
   letter-spacing: 0.04em;
 }
-.btn-dark,
+.btn-dark:hover,
 .btn-iris:hover,
-.btn-dark,
+.btn-dark:focus,
 .btn-iris:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
-}
-.btn-iris .btn {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--color-iris);
-  background-color: var(--color-cornflower);
-  letter-spacing: 0.04em;
 }
 .title-desc {
   font-weight: 700;
